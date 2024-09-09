@@ -36,7 +36,7 @@ Our study primarily focuses on understanding the speaker's emotion leading to sa
 
 The multimodal dataset includes dialogues from sitcoms, each presented as a combination of the main "utterance" and the "context" in which it was spoken. The dataset consists of 1202 instances (utterance+context), with 601 sarcastic and 601 non-sarcastic instances. Each utterance is annotated with the following information:
 
-# Table 5: Annotation of MUStARD++
+## Annotation of MUStARD++
 
 Column	Description
 Sarcasm	0 or 1 indicating the presence or absence of sarcasm
@@ -67,15 +67,14 @@ Sarcasm (0 or 1)
 Emotion (anger, excitement, fear, sad, surprise, frustrated, happy, neutral, disgust)
 
 ## How to Use
-Clone the Repository:
-
-git clone https://github.com/yourusername/Emotion_Recognition.git
-Navigate to the Project Directory:
+Clone the Repository:\
+git clone https://github.com/yourusername/Emotion_Recognition.git\
+Navigate to the Project Directory:\
 cd Emotion_Recognition
 Install Dependencies: Ensure you have Python installed. Then install the necessary packages using:
-pip install -r requirements.txt
-Run the Jupyter Notebook: Open the provided Emotion_Recognition.ipynb file to explore the data analysis, model training, and evaluation steps.
-User Interface: Follow the instructions in the notebook to set up and run the user-friendly interface for emotion detection.
+pip install -r requirements.txt\
+Run the Jupyter Notebook: Open the provided Emotion_Recognition.ipynb file to explore the data analysis, model training, and evaluation steps.\
+User Interface: Follow the instructions in the notebook to set up and run the user-friendly interface for emotion detection.\
 
 ## Contributions
 Contributions are welcome! If you find a bug, or have a feature request or a suggestion, please open an issue or submit a pull request.
