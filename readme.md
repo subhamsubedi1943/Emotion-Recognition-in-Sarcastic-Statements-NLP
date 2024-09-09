@@ -38,14 +38,13 @@ The multimodal dataset includes dialogues from sitcoms, each presented as a comb
 
 ## Annotation of MUStARD++
 
-Column	Description
-Sarcasm	0 or 1 indicating the presence or absence of sarcasm
-Sarcasm_Type	If sarcastic, indicates the type of sarcasm, else None
-Implicit_Emotion	The perceived hidden emotion associated with an instance
-Explicit_Emotion	The surface emotion associated with an instance
-Valence	Level of pleasantness (1-9)
+Sarcasm	0 or 1 indicating the presence or absence of sarcasm\
+Sarcasm_Type	If sarcastic, indicates the type of sarcasm, else None\
+Implicit_Emotion	The perceived hidden emotion associated with an instance\
+Explicit_Emotion	The surface emotion associated with an instance\
+Valence	Level of pleasantness (1-9)\
 Arousal	Level of perceived intensity (1-9)
-6.1.1 Key Features Used
+## Key Features Used
 Utterance: The text of the target utterance to classify.
 Context: A list of utterances (in chronological order) preceding the target utterance.
 Each sentence is annotated for both implicit and explicit emotions. The implicit emotion of an utterance is determined with the help of context, while the explicit emotion is determined directly from the utterance itself, without requiring external knowledge.
@@ -60,21 +59,23 @@ BART is a denoising autoencoder designed for pretraining sequence-to-sequence mo
 ## Dataset Expansion
 We expanded the dataset by sourcing additional video clips from the internet, specifically looking for instances of sarcasm and emotional sentiment. These clips were tabulated and labeled based on the following columns:
 
-Video ID
-Textual Transcript (Utterance)
-Speaker
-Sarcasm (0 or 1)
+Video ID\
+Textual Transcript (Utterance)\
+Speaker\
+Sarcasm (0 or 1)\
 Emotion (anger, excitement, fear, sad, surprise, frustrated, happy, neutral, disgust)
 
 ## How to Use
 Clone the Repository:\
-git clone https://github.com/yourusername/Emotion_Recognition.git\
+git clone https://github.com/yourusername/Emotion_Recognition.git \
 Navigate to the Project Directory:\
-cd Emotion_Recognition
-Install Dependencies: Ensure you have Python installed. Then install the necessary packages using:
+cd Emotion_Recognition\
+Install Dependencies:\
+Ensure you have Python installed.\
+Then install the necessary packages using:\
 pip install -r requirements.txt\
 Run the Jupyter Notebook: Open the provided Emotion_Recognition.ipynb file to explore the data analysis, model training, and evaluation steps.\
-User Interface: Follow the instructions in the notebook to set up and run the user-friendly interface for emotion detection.\
+User Interface: Follow the instructions in the notebook to set up and run the user-friendly interface for emotion detection.
 
 ## Contributions
 Contributions are welcome! If you find a bug, or have a feature request or a suggestion, please open an issue or submit a pull request.
